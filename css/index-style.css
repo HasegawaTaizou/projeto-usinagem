@@ -66,7 +66,7 @@ body {
 
 .input__icon {
   position: absolute;
-  right: 10px !important;
+  right: 10px;
   bottom: 8px;
 }
 
@@ -76,14 +76,6 @@ body {
   display: block;
   margin-bottom: 5px;
   margin-left: 5px;
-}
-
-.input__icon {
-  display: inline-block;
-  position: absolute;
-  display: flex;
-  right: 0px;
-  text-align: center;
 }
 
 .input__input {
