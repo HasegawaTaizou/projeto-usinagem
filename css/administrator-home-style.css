@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--color-white);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  max-width: 720px;
+}
+
+main {
+  max-width: 720px;
+}
+
+.introduction {
+  height: 100vh;
+  border-left: 1px solid var(--color-red);
+  border-right: 1px solid var(--color-red);
+  margin: 0px 20px;
+}
+
+.introduction__subtitle {
+  margin-top: 40px;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.introduction-container {
+  margin: 0px 40px;
+}
+
+.introduction__title {
+  font-style: normal;
+  font-size: 11.25rem;
+  font-weight: 800;
+  color: var(--color-red);
+  text-align: end;
+  transform: translate(0px, -50px);
+}
+
+.banner-administrator__image {
+  border: 1px solid var(--color-red);
+  padding: 35px;
+  transform: translate(0px, -50px);
+  width: 635px;
+  height: 510px;
+}
+
+.context__title {
+  margin: 50px 0px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.context__title::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid var(--color-red);
+  width: 300px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.administrator-functions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 24px;
+  border: 1px solid var(--color-red);
+  padding: 36px;
+}
+
+.administrator-function {
+  border: 1px solid var(--color-red);
+  height: 50px;
+  padding: 10px;
+}
