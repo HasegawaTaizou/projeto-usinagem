@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,800;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Validar Cadastros</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link
+      rel="stylesheet"
+      href="./css/administrator-validate-registers-style.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="context__title">PAINEL DO ADMINISTRADOR</h1>
+      <h2 class="context__subtitle">VALIDAR CADASTROS</h2>
+    </header>
+    <main>
+      <span class="filter__title">Filtros</span>
+      <div class="filters-container">
+        <div class="filter">
+          <label for="" class="id__text">ID</label>
+          <input type="number" class="id__input" />
+        </div>
+        <div class="filter">
+          <label for="" class="position__text">Cargo</label>
+          <select name="" class="position__select">
+            <option class="position__option" value="null">NULL</option>
+            <option class="position__option" value="user">Usuário</option>
+            <option class="position__option" value="professor">
+              Professor
+            </option>
+            <option class="position__option" value="admin">
+              Administrador
+            </option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="" class="date__text">Data</label>
+          <input type="date" class="date__input" />
+          <span class="date__separator">até</span>
+          <input type="date" class="date__input" />
+        </div>
+        <div class="filter">
+          <label for="" class="email__text">E-mail</label>
+          <input type="email" class="email__input" />
+        </div>
+        <div class="filter">
+          <label for="" class="class__text">Turma</label>
+          <select name="" class="class__select">
+            <option class="class__option" value="null">NULL</option>
+            <option class="class__option" value="A">A</option>
+            <option class="class__option" value="B">B</option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="" class="user__text">Usuário</label>
+          <input type="text" class="user__input" />
+        </div>
+        <div class="filter">
+          <label for="" class="phone__text">Celular</label>
+          <input type="tel" class="phone__input" />
+        </div>
+      </div>
+      <div class="result">
+        <table class="result-container">
+          <tr class="result__headers">
+            <th class="header__id">ID</th>
+            <th class="header__date">Data</th>
+            <th class="header__user">Usuário</th>
+            <th class="header__email">E-mail</th>
+            <th class="header__phone">Celular</th>
+            <th class="header__position">Cargo</th>
+            <th class="header__class">Turma</th>
+          </tr>
+          <tr class="result__lines">
+            <td class="line__id">NULL</td>
+            <td class="line__date">NULL</td>
+            <td class="line__user">NULL</td>
+            <td class="line__email">NULL</td>
+            <td class="line__phone">NULL</td>
+            <td class="line__position">NULL</td>
+            <td class="line__class">NULL</td>
+          </tr>
+          <tr class="result__lines">
+            <td class="line__id">NULL</td>
+            <td class="line__date">NULL</td>
+            <td class="line__user">NULL</td>
+            <td class="line__email">NULL</td>
+            <td class="line__phone">NULL</td>
+            <td class="line__position">NULL</td>
+            <td class="line__class">NULL</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
