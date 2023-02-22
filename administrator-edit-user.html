@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,800;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Editar Usuário</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/administrator-validate-user-style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <h1 class="context__title">PAINEL DO ADMINISTRADOR</h1>
+        <h2 class="context__subtitle">EDITAR USUÁRIO</h2>
+        <ul class="user-data-container">
+          <li class="user-data">
+            <label for="" class="data__text">ID</label>
+            <input type="number" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">E-MAIL</label>
+            <input type="text" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">NOME</label>
+            <input type="text" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">SOBRENOME</label>
+            <input type="text" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">NOME COMPLETO</label>
+            <input type="text" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">TELEFONE</label>
+            <input type="text" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">SENHA</label>
+            <input type="text" class="data__" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">CARGO</label>
+            <select name="" class="data__position-select">
+              <option class="data__position-option" value="null">NULL</option>
+              <option class="data__position-option" value="user">
+                Usuário
+              </option>
+              <option class="data__position-option" value="professor">
+                Professor
+              </option>
+              <option class="data__position-option" value="admin">
+                Administrador
+              </option>
+            </select>
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">TURMA</label>
+            <select name="" class="data__class-select">
+              <option class="data__class-option" value="null">NULL</option>
+              <option class="data__class-option" value="A">NULL</option>
+              <option class="data__class-option" value="B">NULL</option>
+            </select>
+          </li>
+          <li class="user-data">
+            <span>STATUS</span>
+            <label for="active">ATIVO</label>
+            <input type="radio" id="active" name="status" value="active" />
+            <label for="inactive">INATIVO</label>
+            <input type="radio" id="inactive" name="status" value="inactive" />
+          </li>
+          <li class="user-data">
+            <label for="" class="data__text">MOTIVO</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </li>
+        </ul>
+        <div class="user-manipulation-container">
+          <button class="manipulation__cancel">CANCELAR</button>
+          <button class="manipulation__save">SALVAR</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
