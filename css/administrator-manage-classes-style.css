@@ -1,0 +1,115 @@
+body {
+  font-family: "Kanit", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--color-white);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  background: linear-gradient(
+    to bottom,
+    var(--color-red) 60%,
+    var(--background-color) 20%
+  );
+  border: 1px solid var(--color-red);
+  margin: 32px;
+}
+
+.content {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+  border: 1px solid var(--color-red);
+}
+
+.context__title {
+  margin-top: 94px;
+  margin-bottom: 24px;
+}
+
+.context__subtitle {
+  margin-bottom: 64px;
+}
+
+.context__subtitle::before {
+  content: "- ";
+}
+
+.context__subtitle::after {
+  content: " -";
+}
+
+table,
+tr,
+td {
+  border: 1px solid var(--color-red);
+}
+
+.manage-classes-container {
+  display: flex;
+  gap: 32px;
+}
+
+.manage-classes-container table th {
+  height: 90px;
+}
+
+.manage-classes-container table td {
+  height: 70px;
+  padding-left: 20px;
+}
+
+.students {
+  width: 400px;
+}
+
+.student__title {
+  padding: 50px;
+}
+
+.manage-classes__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.manage-classes__buttons button {
+  width: 64px;
+  height: 64px;
+  background-color: var(--background-color);
+  border: 1px solid var(--color-red);
+}
+
+.manage-classes__buttons button i {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.classes-container {
+  display: flex;
+}
+
+.classes-container > table {
+  width: 400px;
+}
+
+.button__save {
+  margin-top: 50px;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  width: 150px;
+  height: 64px;
+}
